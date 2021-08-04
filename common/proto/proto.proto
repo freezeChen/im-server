@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package proto;
+
+message Proto {
+  int32 ver = 1;
+  int32 opr = 2;
+  int32 seq = 3;
+  bytes body = 4;
+}
+
+message EmptyReply {
+
+}
